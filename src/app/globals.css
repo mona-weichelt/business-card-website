@@ -5,12 +5,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #d30c7b;
+  --secondary: #ffcad4;
+  --tertiary: #d3ffc9; /* Not yet in use. Just found a well matchign colour and saved it here for posterity */
+  --blue: #c9d3ff; /* same here */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #d30c7b;
+    --secondary: #ad8a91;
+    --tertiary: #d3ffc9;
+    --blue: #c9d3ff;
   }
 }
 

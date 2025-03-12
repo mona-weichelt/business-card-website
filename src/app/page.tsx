@@ -29,7 +29,7 @@ export default function Home() {
         Mona Weichelt
       </header>
       <main className="flex-1 pb-8 flex flex-col md:items-center">
-        <div className="md:w-[680px] lg:w-[880px] relative -top-8 mx-8 flex flex-row rounded-lg shadow-md bg-white">
+        <div className="md:w-[680px] lg:w-[880px] relative -top-8 mx-8 flex flex-row rounded-lg shadow-md bg-background  dark:border dark:border-foreground">
           <Image
             width={449}
             height={602}
